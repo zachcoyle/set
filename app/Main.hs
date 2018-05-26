@@ -75,5 +75,5 @@ main = do
   putStrLn "--------------------"
   putStrLn "results:"
   let matches = findMatches board
-  print $ show (length matches) ++ " matches"
+  print $ show (length matches) ++ " sets"
   mapM_ print matches
